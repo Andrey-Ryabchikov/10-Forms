@@ -9,29 +9,25 @@
 <body>
   <form class="block-center form">
     <!-- BEGIN (write your solution here) -->
-    <h1>Обратная звязь</h1>
-
+    <h1>Обратная связь</h1>
     <div class="form-input mb-2">
-      <label for="text"  class="sr-only">Ваше имя</label>
-      <input type="text"  placeholder="Ваше имя">
+      <label for="name" class="sr-only">Ваше имя</label>
+      <input type="text" id="name" placeholder="Ваше имя">
     </div>
-
     <div class="form-input mb-2">
-      <label for="text"  class="sr-only">Ваш Email</label>
-      <input type="text" name="name" placeholder="Ваш Email">
+      <label for="email" class="sr-only">Email</label>
+      <input type="email" id="email" placeholder="Ваш Email">
     </div>
-
     <div class="form-input mb-2">
-      <label for="text"  class="sr-only">Ваше сообщение</label>
-      <textarea>Ваше сообщение</textarea>
+      <label for="message" class="sr-only">Ваше сообщение</label>
+      <textarea id="message" placeholder="Ваше сообщение"></textarea>
     </div>
-
     <div class="small mb-1">
-    <label>
-      <input type="checkbox" name="test" value="Я принимаю правила сервиса">
-      Я принимаю правила сервиса
-  </label>
-</div>
+      <label>
+        <input type="checkbox" name="accept" value="Accept Rule">
+        Я принимаю правила сервиса
+      </label>
+    </div>
     <!-- END -->
     <button class="btn btn-green">Отправить сообщение</button>
   </form>
